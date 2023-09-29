@@ -1,8 +1,8 @@
 .dropbtn {
-    background-color: aqua;
-    color:blue;
+    background-color: grey;
+    color:white;
     padding: 16px;
-    font-size: 16px;
+    font-size: 20px;
     border: none;
 }
 
@@ -42,4 +42,26 @@
 body {
     background-image: url(picture.jpg);
     background-size:cover;
+}
+
+.textbox {
+    background-color: aliceblue;
+    opacity: 50%;
+    width: 600px;
+    height: 400px;
+    padding:30px;
+    margin:80px;
+}
+
+.colum {
+    float:left;
+    width:300px;
+    padding:30px;
+    height: 300px;
+}
+
+.row {
+    content:"";
+    display: table;
+    clear:both;
 }
